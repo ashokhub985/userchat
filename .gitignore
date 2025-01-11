@@ -1,0 +1,31 @@
+# Ignore environment files
+.env
+config.env
+
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore virtual environment folders
+venv/
+env/
+*.env/
+
+# Ignore logs
+*.log
+
+# Ignore build and distribution files
+build/
+dist/
+*.egg-info/
+
+# Ignore .idea (IDE config folder for JetBrains products like PyCharm)
+.idea/
+
+# Ignore .vscode (VS Code settings folder)
+.vscode/
+
+# Ignore system files (e.g., macOS, Windows)
+.DS_Store
+Thumbs.db
